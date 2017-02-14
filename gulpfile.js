@@ -20,7 +20,7 @@ var babelOptions = {
 gulp.task('server', function () {
   connect.server({
     host: '0.0.0.0',
-    root: ['example', 'build', 'styles'],
+    root: ['example', 'build', 'styles', 'static'],
     port: 8001,
     livereload: true
   });
